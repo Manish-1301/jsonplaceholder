@@ -1,0 +1,28 @@
+.posts{
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    padding: 3rem;
+}
+.posts__heading{
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(250, 65, 126);
+}
+
+.post{
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: rgb(250, 65, 126);;
+    list-style: none;
+    border-radius: 10px;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+    color:#ffff;
+    &:not(:last-child){
+        margin-bottom: 0.5rem;
+    }
+    &__title{
+        text-transform: uppercase;
+        margin-bottom: 3px;
+    }
+}

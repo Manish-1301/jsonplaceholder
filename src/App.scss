@@ -1,0 +1,20 @@
+.App{
+  display: grid;
+  grid-template-columns: [sidebar-start] 1fr [sidebar-end full-start] 2fr[full-end];
+  grid-template-rows: min-content 1fr;
+  min-height: 100vh;
+  grid-gap: 2rem;
+  padding-top: 1rem ;
+}
+.Sidebar{
+  grid-row: 1/ span 2;
+}
+
+.Content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #ffffff;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.2);
+  border-radius: 10px;
+  padding: 1rem;
+}

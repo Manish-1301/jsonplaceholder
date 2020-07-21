@@ -1,0 +1,32 @@
+.Userlist{
+    list-style: none;
+    background-color: #ffffff;
+    padding: 3rem;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+    &:not(:last-child){
+        margin-bottom: 2rem;
+    }
+}
+
+.users{
+    padding: 2rem;
+    background-color: rgb(250, 65, 126);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+    &:not(:last-child){
+        margin-bottom: 2rem;
+    }
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+}
+.active{
+    background-color: rgb(221, 12, 82);
+}

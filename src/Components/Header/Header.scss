@@ -1,0 +1,16 @@
+.header{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+    padding: 1rem;
+    color: rgb(250, 65, 126);
+    font-size: 1.4rem;
+    &__name{
+        text-align: center;
+        text-decoration: underline;
+    }
+    &__box{
+        display: flex;
+        justify-content: space-between;
+    }
+}
